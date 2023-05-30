@@ -1,0 +1,442 @@
+@prefix : <https://w3id.org/0.6/LODO#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/0.6/LODO#> .
+
+<https://w3id.org/0.6/LODO> rdf:type owl:Ontology ;
+                             <http://purl.org/dc/elements/1.1/rights> "https://creativecommons.org/licenses/by/4.0/" ;
+                             <http://purl.org/dc/terms/abstract> "LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others." ;
+                             <http://purl.org/dc/terms/bibliographicCitation> "Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023." ;
+                             <http://purl.org/dc/terms/created> "2023-05-30T15:30:00"^^xsd:dateTime ;
+                             <http://purl.org/dc/terms/creator> "Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)" ;
+                             <http://purl.org/dc/terms/date> "2023-05-30T15:47:00"^^xsd:dateTime ;
+                             <http://purl.org/dc/terms/description> "LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others." ;
+                             <http://purl.org/dc/terms/license> "Creative Commons Attribution 4.0 International license" ,
+                                                                "https://creativecommons.org/licenses/by/4.0/" ;
+                             <http://purl.org/dc/terms/title> "LOD Ontology" ;
+                             <http://purl.org/ontology/bibo/status> "LOD Ontology Specification" ;
+                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "lodo" ;
+                             <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/0.6/LODO" ;
+                             rdfs:seeAlso "https://ceur-ws.org/Vol-3081/09paper.pdf" ;
+                             owl:versionInfo "0.6" ;
+                             <https://schema.org/citation> "Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023." ;
+                             <https://www.w3.org/Submission/ccREL/license> "https://creativecommons.org/licenses/by/4.0/" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/citation
+<https://schema.org/citation> rdf:type owl:AnnotationProperty .
+
+
+###  https://www.w3.org/Submission/ccREL/license
+<https://www.w3.org/Submission/ccREL/license> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/0.6/LODO#hasImmediateNextLevel
+:hasImmediateNextLevel rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :hasNextLevel ;
+                       owl:inverseOf :hasImmediatePreviousLevel ;
+                       rdfs:domain :LODLevel ;
+                       rdfs:range :LODLevel ;
+                       <http://purl.org/dc/terms/description> "Represent the Immediate next level in the sequence" ;
+                       rdfs:label "Immediate Next Level" .
+
+
+###  https://w3id.org/0.6/LODO#hasImmediatePreviousLevel
+:hasImmediatePreviousLevel rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf :hasPreviousLevel ;
+                           rdfs:domain :LODLevel ;
+                           rdfs:range :LODLevel ;
+                           <http://purl.org/dc/terms/description> "Represents the Immediate Previous level in the sequence" ;
+                           rdfs:label "Immediate Previous Level" .
+
+
+###  https://w3id.org/0.6/LODO#hasLevel
+:hasLevel rdf:type owl:ObjectProperty ;
+          rdfs:domain :LODFramework ;
+          rdfs:range :LODLevel ;
+          owl:propertyChainAxiom ( :hasLevel
+                                   :hasSubLevel
+                                 ) ;
+          <http://purl.org/dc/terms/description> "Enables the connection betweendifferent levels to its framework" ;
+          rdfs:label "has Level" .
+
+
+###  https://w3id.org/0.6/LODO#hasNextLevel
+:hasNextLevel rdf:type owl:ObjectProperty ;
+              owl:inverseOf :hasPreviousLevel ;
+              rdf:type owl:TransitiveProperty ;
+              rdfs:domain :LODLevel ;
+              rdfs:range :LODLevel ;
+              <http://purl.org/dc/terms/description> "Indicates the sequence of levels." ;
+              rdfs:label "has Next Level" .
+
+
+###  https://w3id.org/0.6/LODO#hasPreviousLevel
+:hasPreviousLevel rdf:type owl:ObjectProperty ,
+                           owl:TransitiveProperty ;
+                  rdfs:domain :LODLevel ;
+                  rdfs:range :LODLevel ;
+                  <http://purl.org/dc/terms/description> "Indicates the sequence of levels." ;
+                  rdfs:label "has Previous Level" .
+
+
+###  https://w3id.org/0.6/LODO#hasSubLevel
+:hasSubLevel rdf:type owl:ObjectProperty ;
+             owl:inverseOf :hasSuperLevel ;
+             rdf:type owl:TransitiveProperty ;
+             rdfs:domain :LODLevel ;
+             rdfs:range :LODLevel ;
+             <http://purl.org/dc/terms/description> "Represents the relation between Upper levels and its sub level" ;
+             rdfs:label "has Sub Level" .
+
+
+###  https://w3id.org/0.6/LODO#hasSuperLevel
+:hasSuperLevel rdf:type owl:ObjectProperty ,
+                        owl:TransitiveProperty ;
+               rdfs:domain :LODLevel ;
+               rdfs:range :LODLevel ;
+               rdfs:label "has Super Level" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/0.6/LODO#LODFramework
+:LODFramework rdf:type owl:Class ;
+              owl:disjointWith :LODLevel ;
+              <http://purl.org/dc/terms/description> "Represents the defined frameworks according to National or International standards" ;
+              rdfs:label "LOD Framework" .
+
+
+###  https://w3id.org/0.6/LODO#LODLevel
+:LODLevel rdf:type owl:Class ;
+          <http://purl.org/dc/terms/description> "Indicates the different LOD levels deffined with in the different LOD frameworks" ;
+          rdfs:label "LOD Level" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/0.6/LODO#AsBuilt
+:AsBuilt rdf:type owl:NamedIndividual ;
+         :hasSubLevel :LOD_500 ;
+         rdfs:label "AsBuilt" .
+
+
+###  https://w3id.org/0.6/LODO#AsDesigned
+:AsDesigned rdf:type owl:NamedIndividual ;
+            :hasNextLevel :AsBuilt ;
+            :hasSubLevel :LOD_100 ,
+                         :LOD_200 ,
+                         :LOD_300 ,
+                         :LOD_350 ,
+                         :LOD_400 ;
+            rdfs:label "AsDesigned" .
+
+
+###  https://w3id.org/0.6/LODO#Italy_Level_of_Development
+:Italy_Level_of_Development rdf:type owl:NamedIndividual ;
+                            :hasLevel :LOG_Geometrical_Object ,
+                                      :LOI_Information_Object ;
+                            <http://purl.org/dc/terms/description> "Italy - Level of Development of Objects" ;
+                            rdfs:label "Italy Level of Development" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_1
+:LOD_1 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOD_2 ;
+       rdfs:label "LOD 1" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_100
+:LOD_100 rdf:type owl:NamedIndividual ;
+         :hasImmediateNextLevel :LOD_200 ;
+         rdfs:label "LOD 100" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_2
+:LOD_2 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOD_3 ;
+       rdfs:label "LOD 2" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_200
+:LOD_200 rdf:type owl:NamedIndividual ;
+         :hasImmediateNextLevel :LOD_300 ;
+         rdfs:label "LOD 200" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_3
+:LOD_3 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOD_4 ;
+       rdfs:label "LOD 3" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_300
+:LOD_300 rdf:type owl:NamedIndividual ;
+         :hasImmediateNextLevel :LOD_350 ;
+         rdfs:label "LOD 300" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_350
+:LOD_350 rdf:type owl:NamedIndividual ;
+         :hasImmediateNextLevel :LOD_400 ;
+         rdfs:label "LOD 350" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_4
+:LOD_4 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOD_5 ;
+       rdfs:label "LOD 4" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_400
+:LOD_400 rdf:type owl:NamedIndividual ;
+         :hasImmediateNextLevel :LOD_500 ;
+         rdfs:label "LOD 400" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_5
+:LOD_5 rdf:type owl:NamedIndividual ;
+       rdfs:label "LOD 5" .
+
+
+###  https://w3id.org/0.6/LODO#LOD_500
+:LOD_500 rdf:type owl:NamedIndividual ;
+         rdfs:label "LOD 500" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_A
+:LOG_A rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOG_B ;
+       rdfs:label "LOG A" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_B
+:LOG_B rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOG_C ;
+       rdfs:label "LOG B" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_C
+:LOG_C rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOG_D ;
+       rdfs:label "LOG C" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_D
+:LOG_D rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOG_E ;
+       rdfs:label "LOG D" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_E
+:LOG_E rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOG_F ;
+       rdfs:label "LOG E" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_F
+:LOG_F rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOG_G ;
+       rdfs:label "LOG F" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_G
+:LOG_G rdf:type owl:NamedIndividual ;
+       rdfs:label "LOG G" .
+
+
+###  https://w3id.org/0.6/LODO#LOG_Geometrical_Object
+:LOG_Geometrical_Object rdf:type owl:NamedIndividual ;
+                        :hasSubLevel :LOG_A ,
+                                     :LOG_B ,
+                                     :LOG_C ,
+                                     :LOG_D ,
+                                     :LOG_E ,
+                                     :LOG_F ,
+                                     :LOG_G ;
+                        <http://purl.org/dc/terms/description> "Describes about the level of geometrical information of an object" ;
+                        rdfs:label "LOG - Geometrical Object" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_1
+:LOI_1 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_2 ;
+       rdfs:label "LOI 1" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_2
+:LOI_2 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_3 ;
+       rdfs:label "LOI 2" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_3
+:LOI_3 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_4 ;
+       rdfs:label "LOI 3" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_4
+:LOI_4 rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_5 ;
+       rdfs:label "LOI 4" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_5
+:LOI_5 rdf:type owl:NamedIndividual ;
+       rdfs:label "LOI 5" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_A
+:LOI_A rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_B ;
+       rdfs:label "LOI A" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_B
+:LOI_B rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_C ;
+       rdfs:label "LOI B" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_C
+:LOI_C rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_D ;
+       rdfs:label "LOI C" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_D
+:LOI_D rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_E ;
+       rdfs:label "LOI D" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_E
+:LOI_E rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_F ;
+       rdfs:label "LOI E" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_F
+:LOI_F rdf:type owl:NamedIndividual ;
+       :hasImmediateNextLevel :LOI_G ;
+       rdfs:label "LOI F" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_G
+:LOI_G rdf:type owl:NamedIndividual ;
+       rdfs:label "LOI G" .
+
+
+###  https://w3id.org/0.6/LODO#LOI_Information_Object
+:LOI_Information_Object rdf:type owl:NamedIndividual ;
+                        :hasSubLevel :LOI_A ,
+                                     :LOI_B ,
+                                     :LOI_C ,
+                                     :LOI_D ,
+                                     :LOI_E ,
+                                     :LOI_F ,
+                                     :LOI_G ;
+                        <http://purl.org/dc/terms/description> "Decribes about the attribute information about the object" ;
+                        rdfs:label "LOI - Information Object" .
+
+
+###  https://w3id.org/0.6/LODO#Level_of_Detail
+:Level_of_Detail rdf:type owl:NamedIndividual ;
+                 :hasSubLevel :LOD_1 ,
+                              :LOD_2 ,
+                              :LOD_3 ,
+                              :LOD_4 ,
+                              :LOD_5 ;
+                 rdfs:label "Level of Detail" .
+
+
+###  https://w3id.org/0.6/LODO#Level_of_Information
+:Level_of_Information rdf:type owl:NamedIndividual ;
+                      :hasSubLevel :LOI_1 ,
+                                   :LOI_2 ,
+                                   :LOI_3 ,
+                                   :LOI_4 ,
+                                   :LOI_5 ;
+                      rdfs:label "Level of Information" .
+
+
+###  https://w3id.org/0.6/LODO#UK_Level_of_Definition
+:UK_Level_of_Definition rdf:type owl:NamedIndividual ;
+                        :hasLevel :Level_of_Detail ,
+                                  :Level_of_Information ;
+                        <http://purl.org/dc/terms/description> "From the standards BS 1192-1 and PAS 1192-2 and 3" ;
+                        rdfs:label "UK Level of Definition" .
+
+
+###  https://w3id.org/0.6/LODO#USA_BIMForum
+:USA_BIMForum rdf:type owl:NamedIndividual ;
+              :hasLevel :AsBuilt ,
+                        :AsDesigned ;
+              <http://purl.org/dc/terms/description> "USA Level of Development" ;
+              rdfs:label "USA BIMForum" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

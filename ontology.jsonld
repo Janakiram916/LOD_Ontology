@@ -1,0 +1,651 @@
+[ {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/citation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@value" : "LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others."
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@value" : "Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023."
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2023-05-30T15:30:00"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2023-05-30T15:47:00"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "Creative Commons Attribution 4.0 International license"
+  }, {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "LOD Ontology"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@value" : "LOD Ontology Specification"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "lodo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/0.6/LODO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "https://ceur-ws.org/Vol-3081/09paper.pdf"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.6"
+  } ],
+  "https://schema.org/citation" : [ {
+    "@value" : "Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023."
+  } ],
+  "https://www.w3.org/Submission/ccREL/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#AsBuilt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "AsBuilt"
+  } ],
+  "https://w3id.org/0.6/LODO#hasSubLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_500"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#AsDesigned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "AsDesigned"
+  } ],
+  "https://w3id.org/0.6/LODO#hasNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#AsBuilt"
+  } ],
+  "https://w3id.org/0.6/LODO#hasSubLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_100"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_200"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_300"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_350"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_400"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#Italy_Level_of_Development",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Italy - Level of Development of Objects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Italy Level of Development"
+  } ],
+  "https://w3id.org/0.6/LODO#hasLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_Geometrical_Object"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_Information_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LODFramework",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Represents the defined frameworks according to National or International standards"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD Framework"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LODLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Indicates the different LOD levels deffined with in the different LOD frameworks"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD Level"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 1"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 100"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_200"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 2"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_200",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 200"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_300"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 3"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_300",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 300"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_350"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 350"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_400"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 4"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_400",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 400"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_500"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOD_500",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOD 500"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG A"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_B"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG B"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_C"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG C"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_D"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG D"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_E"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_E",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG E"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_F"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_F",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG F"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_G"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_G",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG G"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOG_Geometrical_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Describes about the level of geometrical information of an object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOG - Geometrical Object"
+  } ],
+  "https://w3id.org/0.6/LODO#hasSubLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_A"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_B"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_C"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_D"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_E"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_F"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOG_G"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI 1"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI 2"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI 3"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI 4"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI 5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI A"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_B"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI B"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_C"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI C"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_D"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI D"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_E"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_E",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI E"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_F"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_F",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI F"
+  } ],
+  "https://w3id.org/0.6/LODO#hasImmediateNextLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_G"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_G",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI G"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#LOI_Information_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Decribes about the attribute information about the object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "LOI - Information Object"
+  } ],
+  "https://w3id.org/0.6/LODO#hasSubLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_A"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_B"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_C"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_D"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_E"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_F"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_G"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#Level_of_Detail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Level of Detail"
+  } ],
+  "https://w3id.org/0.6/LODO#hasSubLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_1"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_2"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_3"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_4"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOD_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#Level_of_Information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Level of Information"
+  } ],
+  "https://w3id.org/0.6/LODO#hasSubLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_1"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_2"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_3"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_4"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#LOI_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#UK_Level_of_Definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "From the standards BS 1192-1 and PAS 1192-2 and 3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "UK Level of Definition"
+  } ],
+  "https://w3id.org/0.6/LODO#hasLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#Level_of_Detail"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#Level_of_Information"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#USA_BIMForum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "USA Level of Development"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "USA BIMForum"
+  } ],
+  "https://w3id.org/0.6/LODO#hasLevel" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#AsBuilt"
+  }, {
+    "@id" : "https://w3id.org/0.6/LODO#AsDesigned"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasImmediateNextLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Represent the Immediate next level in the sequence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Immediate Next Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#hasNextLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#hasImmediatePreviousLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasImmediatePreviousLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Represents the Immediate Previous level in the sequence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Immediate Previous Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#hasPreviousLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Enables the connection betweendifferent levels to its framework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODFramework"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/0.6/LODO#hasLevel"
+    }, {
+      "@id" : "https://w3id.org/0.6/LODO#hasSubLevel"
+    } ]
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasNextLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Indicates the sequence of levels."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Next Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#hasPreviousLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasPreviousLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Indicates the sequence of levels."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Previous Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasSubLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Represents the relation between Upper levels and its sub level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Sub Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#hasSuperLevel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/0.6/LODO#hasSuperLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Super Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/0.6/LODO#LODLevel"
+  } ]
+}, {
+  "@id" : "https://www.w3.org/Submission/ccREL/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

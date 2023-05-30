@@ -1,0 +1,395 @@
+<https://w3id.org/0.6/LODO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/elements/1.1/rights> "https://creativecommons.org/licenses/by/4.0/" .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/abstract> "LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others." .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/bibliographicCitation> "Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023." .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/created> "2023-05-30T15:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/creator> "Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)" .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/date> "2023-05-30T15:47:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/description> "LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others." .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/license> "Creative Commons Attribution 4.0 International license" .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://w3id.org/0.6/LODO> <http://purl.org/dc/terms/title> "LOD Ontology" .
+<https://w3id.org/0.6/LODO> <http://purl.org/ontology/bibo/status> "LOD Ontology Specification" .
+<https://w3id.org/0.6/LODO> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lodo" .
+<https://w3id.org/0.6/LODO> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/0.6/LODO" .
+<https://w3id.org/0.6/LODO> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://ceur-ws.org/Vol-3081/09paper.pdf" .
+<https://w3id.org/0.6/LODO> <http://www.w3.org/2002/07/owl#versionInfo> "0.6" .
+<https://w3id.org/0.6/LODO> <https://schema.org/citation> "Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023." .
+<https://w3id.org/0.6/LODO> <https://www.w3.org/Submission/ccREL/license> "https://creativecommons.org/licenses/by/4.0/" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/citation
+<https://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.w3.org/Submission/ccREL/license
+<https://www.w3.org/Submission/ccREL/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/0.6/LODO#hasImmediateNextLevel
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/0.6/LODO#hasNextLevel> .
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> .
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://purl.org/dc/terms/description> "Represent the Immediate next level in the sequence" .
+<https://w3id.org/0.6/LODO#hasImmediateNextLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Immediate Next Level" .
+# 
+# https://w3id.org/0.6/LODO#hasImmediatePreviousLevel
+<https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/0.6/LODO#hasPreviousLevel> .
+<https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> <http://purl.org/dc/terms/description> "Represents the Immediate Previous level in the sequence" .
+<https://w3id.org/0.6/LODO#hasImmediatePreviousLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Immediate Previous Level" .
+# 
+# https://w3id.org/0.6/LODO#hasLevel
+<https://w3id.org/0.6/LODO#hasLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODFramework> .
+<https://w3id.org/0.6/LODO#hasLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasLevel> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/0.6/LODO#hasSubLevel> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/0.6/LODO#hasLevel> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/0.6/LODO#hasLevel> <http://purl.org/dc/terms/description> "Enables the connection betweendifferent levels to its framework" .
+<https://w3id.org/0.6/LODO#hasLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has Level" .
+# 
+# https://w3id.org/0.6/LODO#hasNextLevel
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/0.6/LODO#hasPreviousLevel> .
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://purl.org/dc/terms/description> "Indicates the sequence of levels." .
+<https://w3id.org/0.6/LODO#hasNextLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has Next Level" .
+# 
+# https://w3id.org/0.6/LODO#hasPreviousLevel
+<https://w3id.org/0.6/LODO#hasPreviousLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasPreviousLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/0.6/LODO#hasPreviousLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasPreviousLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasPreviousLevel> <http://purl.org/dc/terms/description> "Indicates the sequence of levels." .
+<https://w3id.org/0.6/LODO#hasPreviousLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has Previous Level" .
+# 
+# https://w3id.org/0.6/LODO#hasSubLevel
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/0.6/LODO#hasSuperLevel> .
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://purl.org/dc/terms/description> "Represents the relation between Upper levels and its sub level" .
+<https://w3id.org/0.6/LODO#hasSubLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has Sub Level" .
+# 
+# https://w3id.org/0.6/LODO#hasSuperLevel
+<https://w3id.org/0.6/LODO#hasSuperLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/0.6/LODO#hasSuperLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/0.6/LODO#hasSuperLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasSuperLevel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#hasSuperLevel> <http://www.w3.org/2000/01/rdf-schema#label> "has Super Level" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/0.6/LODO#LODFramework
+<https://w3id.org/0.6/LODO#LODFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/0.6/LODO#LODFramework> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/0.6/LODO#LODLevel> .
+<https://w3id.org/0.6/LODO#LODFramework> <http://purl.org/dc/terms/description> "Represents the defined frameworks according to National or International standards" .
+<https://w3id.org/0.6/LODO#LODFramework> <http://www.w3.org/2000/01/rdf-schema#label> "LOD Framework" .
+# 
+# https://w3id.org/0.6/LODO#LODLevel
+<https://w3id.org/0.6/LODO#LODLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/0.6/LODO#LODLevel> <http://purl.org/dc/terms/description> "Indicates the different LOD levels deffined with in the different LOD frameworks" .
+<https://w3id.org/0.6/LODO#LODLevel> <http://www.w3.org/2000/01/rdf-schema#label> "LOD Level" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/0.6/LODO#AsBuilt
+<https://w3id.org/0.6/LODO#AsBuilt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#AsBuilt> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_500> .
+<https://w3id.org/0.6/LODO#AsBuilt> <http://www.w3.org/2000/01/rdf-schema#label> "AsBuilt" .
+# 
+# https://w3id.org/0.6/LODO#AsDesigned
+<https://w3id.org/0.6/LODO#AsDesigned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#AsDesigned> <https://w3id.org/0.6/LODO#hasNextLevel> <https://w3id.org/0.6/LODO#AsBuilt> .
+<https://w3id.org/0.6/LODO#AsDesigned> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_100> .
+<https://w3id.org/0.6/LODO#AsDesigned> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_200> .
+<https://w3id.org/0.6/LODO#AsDesigned> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_300> .
+<https://w3id.org/0.6/LODO#AsDesigned> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_350> .
+<https://w3id.org/0.6/LODO#AsDesigned> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_400> .
+<https://w3id.org/0.6/LODO#AsDesigned> <http://www.w3.org/2000/01/rdf-schema#label> "AsDesigned" .
+# 
+# https://w3id.org/0.6/LODO#Italy_Level_of_Development
+<https://w3id.org/0.6/LODO#Italy_Level_of_Development> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#Italy_Level_of_Development> <https://w3id.org/0.6/LODO#hasLevel> <https://w3id.org/0.6/LODO#LOG_Geometrical_Object> .
+<https://w3id.org/0.6/LODO#Italy_Level_of_Development> <https://w3id.org/0.6/LODO#hasLevel> <https://w3id.org/0.6/LODO#LOI_Information_Object> .
+<https://w3id.org/0.6/LODO#Italy_Level_of_Development> <http://purl.org/dc/terms/description> "Italy - Level of Development of Objects" .
+<https://w3id.org/0.6/LODO#Italy_Level_of_Development> <http://www.w3.org/2000/01/rdf-schema#label> "Italy Level of Development" .
+# 
+# https://w3id.org/0.6/LODO#LOD_1
+<https://w3id.org/0.6/LODO#LOD_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_1> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_2> .
+<https://w3id.org/0.6/LODO#LOD_1> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 1" .
+# 
+# https://w3id.org/0.6/LODO#LOD_100
+<https://w3id.org/0.6/LODO#LOD_100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_100> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_200> .
+<https://w3id.org/0.6/LODO#LOD_100> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 100" .
+# 
+# https://w3id.org/0.6/LODO#LOD_2
+<https://w3id.org/0.6/LODO#LOD_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_2> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_3> .
+<https://w3id.org/0.6/LODO#LOD_2> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 2" .
+# 
+# https://w3id.org/0.6/LODO#LOD_200
+<https://w3id.org/0.6/LODO#LOD_200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_200> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_300> .
+<https://w3id.org/0.6/LODO#LOD_200> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 200" .
+# 
+# https://w3id.org/0.6/LODO#LOD_3
+<https://w3id.org/0.6/LODO#LOD_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_3> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_4> .
+<https://w3id.org/0.6/LODO#LOD_3> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 3" .
+# 
+# https://w3id.org/0.6/LODO#LOD_300
+<https://w3id.org/0.6/LODO#LOD_300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_300> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_350> .
+<https://w3id.org/0.6/LODO#LOD_300> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 300" .
+# 
+# https://w3id.org/0.6/LODO#LOD_350
+<https://w3id.org/0.6/LODO#LOD_350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_350> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_400> .
+<https://w3id.org/0.6/LODO#LOD_350> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 350" .
+# 
+# https://w3id.org/0.6/LODO#LOD_4
+<https://w3id.org/0.6/LODO#LOD_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_4> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_5> .
+<https://w3id.org/0.6/LODO#LOD_4> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 4" .
+# 
+# https://w3id.org/0.6/LODO#LOD_400
+<https://w3id.org/0.6/LODO#LOD_400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_400> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOD_500> .
+<https://w3id.org/0.6/LODO#LOD_400> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 400" .
+# 
+# https://w3id.org/0.6/LODO#LOD_5
+<https://w3id.org/0.6/LODO#LOD_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_5> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 5" .
+# 
+# https://w3id.org/0.6/LODO#LOD_500
+<https://w3id.org/0.6/LODO#LOD_500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOD_500> <http://www.w3.org/2000/01/rdf-schema#label> "LOD 500" .
+# 
+# https://w3id.org/0.6/LODO#LOG_A
+<https://w3id.org/0.6/LODO#LOG_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_A> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOG_B> .
+<https://w3id.org/0.6/LODO#LOG_A> <http://www.w3.org/2000/01/rdf-schema#label> "LOG A" .
+# 
+# https://w3id.org/0.6/LODO#LOG_B
+<https://w3id.org/0.6/LODO#LOG_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_B> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOG_C> .
+<https://w3id.org/0.6/LODO#LOG_B> <http://www.w3.org/2000/01/rdf-schema#label> "LOG B" .
+# 
+# https://w3id.org/0.6/LODO#LOG_C
+<https://w3id.org/0.6/LODO#LOG_C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_C> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOG_D> .
+<https://w3id.org/0.6/LODO#LOG_C> <http://www.w3.org/2000/01/rdf-schema#label> "LOG C" .
+# 
+# https://w3id.org/0.6/LODO#LOG_D
+<https://w3id.org/0.6/LODO#LOG_D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_D> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOG_E> .
+<https://w3id.org/0.6/LODO#LOG_D> <http://www.w3.org/2000/01/rdf-schema#label> "LOG D" .
+# 
+# https://w3id.org/0.6/LODO#LOG_E
+<https://w3id.org/0.6/LODO#LOG_E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_E> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOG_F> .
+<https://w3id.org/0.6/LODO#LOG_E> <http://www.w3.org/2000/01/rdf-schema#label> "LOG E" .
+# 
+# https://w3id.org/0.6/LODO#LOG_F
+<https://w3id.org/0.6/LODO#LOG_F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_F> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOG_G> .
+<https://w3id.org/0.6/LODO#LOG_F> <http://www.w3.org/2000/01/rdf-schema#label> "LOG F" .
+# 
+# https://w3id.org/0.6/LODO#LOG_G
+<https://w3id.org/0.6/LODO#LOG_G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_G> <http://www.w3.org/2000/01/rdf-schema#label> "LOG G" .
+# 
+# https://w3id.org/0.6/LODO#LOG_Geometrical_Object
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_A> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_B> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_C> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_D> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_E> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_F> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOG_G> .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <http://purl.org/dc/terms/description> "Describes about the level of geometrical information of an object" .
+<https://w3id.org/0.6/LODO#LOG_Geometrical_Object> <http://www.w3.org/2000/01/rdf-schema#label> "LOG - Geometrical Object" .
+# 
+# https://w3id.org/0.6/LODO#LOI_1
+<https://w3id.org/0.6/LODO#LOI_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_1> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_2> .
+<https://w3id.org/0.6/LODO#LOI_1> <http://www.w3.org/2000/01/rdf-schema#label> "LOI 1" .
+# 
+# https://w3id.org/0.6/LODO#LOI_2
+<https://w3id.org/0.6/LODO#LOI_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_2> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_3> .
+<https://w3id.org/0.6/LODO#LOI_2> <http://www.w3.org/2000/01/rdf-schema#label> "LOI 2" .
+# 
+# https://w3id.org/0.6/LODO#LOI_3
+<https://w3id.org/0.6/LODO#LOI_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_3> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_4> .
+<https://w3id.org/0.6/LODO#LOI_3> <http://www.w3.org/2000/01/rdf-schema#label> "LOI 3" .
+# 
+# https://w3id.org/0.6/LODO#LOI_4
+<https://w3id.org/0.6/LODO#LOI_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_4> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_5> .
+<https://w3id.org/0.6/LODO#LOI_4> <http://www.w3.org/2000/01/rdf-schema#label> "LOI 4" .
+# 
+# https://w3id.org/0.6/LODO#LOI_5
+<https://w3id.org/0.6/LODO#LOI_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_5> <http://www.w3.org/2000/01/rdf-schema#label> "LOI 5" .
+# 
+# https://w3id.org/0.6/LODO#LOI_A
+<https://w3id.org/0.6/LODO#LOI_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_A> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_B> .
+<https://w3id.org/0.6/LODO#LOI_A> <http://www.w3.org/2000/01/rdf-schema#label> "LOI A" .
+# 
+# https://w3id.org/0.6/LODO#LOI_B
+<https://w3id.org/0.6/LODO#LOI_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_B> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_C> .
+<https://w3id.org/0.6/LODO#LOI_B> <http://www.w3.org/2000/01/rdf-schema#label> "LOI B" .
+# 
+# https://w3id.org/0.6/LODO#LOI_C
+<https://w3id.org/0.6/LODO#LOI_C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_C> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_D> .
+<https://w3id.org/0.6/LODO#LOI_C> <http://www.w3.org/2000/01/rdf-schema#label> "LOI C" .
+# 
+# https://w3id.org/0.6/LODO#LOI_D
+<https://w3id.org/0.6/LODO#LOI_D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_D> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_E> .
+<https://w3id.org/0.6/LODO#LOI_D> <http://www.w3.org/2000/01/rdf-schema#label> "LOI D" .
+# 
+# https://w3id.org/0.6/LODO#LOI_E
+<https://w3id.org/0.6/LODO#LOI_E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_E> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_F> .
+<https://w3id.org/0.6/LODO#LOI_E> <http://www.w3.org/2000/01/rdf-schema#label> "LOI E" .
+# 
+# https://w3id.org/0.6/LODO#LOI_F
+<https://w3id.org/0.6/LODO#LOI_F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_F> <https://w3id.org/0.6/LODO#hasImmediateNextLevel> <https://w3id.org/0.6/LODO#LOI_G> .
+<https://w3id.org/0.6/LODO#LOI_F> <http://www.w3.org/2000/01/rdf-schema#label> "LOI F" .
+# 
+# https://w3id.org/0.6/LODO#LOI_G
+<https://w3id.org/0.6/LODO#LOI_G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_G> <http://www.w3.org/2000/01/rdf-schema#label> "LOI G" .
+# 
+# https://w3id.org/0.6/LODO#LOI_Information_Object
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_A> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_B> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_C> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_D> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_E> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_F> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_G> .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <http://purl.org/dc/terms/description> "Decribes about the attribute information about the object" .
+<https://w3id.org/0.6/LODO#LOI_Information_Object> <http://www.w3.org/2000/01/rdf-schema#label> "LOI - Information Object" .
+# 
+# https://w3id.org/0.6/LODO#Level_of_Detail
+<https://w3id.org/0.6/LODO#Level_of_Detail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#Level_of_Detail> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_1> .
+<https://w3id.org/0.6/LODO#Level_of_Detail> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_2> .
+<https://w3id.org/0.6/LODO#Level_of_Detail> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_3> .
+<https://w3id.org/0.6/LODO#Level_of_Detail> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_4> .
+<https://w3id.org/0.6/LODO#Level_of_Detail> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOD_5> .
+<https://w3id.org/0.6/LODO#Level_of_Detail> <http://www.w3.org/2000/01/rdf-schema#label> "Level of Detail" .
+# 
+# https://w3id.org/0.6/LODO#Level_of_Information
+<https://w3id.org/0.6/LODO#Level_of_Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#Level_of_Information> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_1> .
+<https://w3id.org/0.6/LODO#Level_of_Information> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_2> .
+<https://w3id.org/0.6/LODO#Level_of_Information> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_3> .
+<https://w3id.org/0.6/LODO#Level_of_Information> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_4> .
+<https://w3id.org/0.6/LODO#Level_of_Information> <https://w3id.org/0.6/LODO#hasSubLevel> <https://w3id.org/0.6/LODO#LOI_5> .
+<https://w3id.org/0.6/LODO#Level_of_Information> <http://www.w3.org/2000/01/rdf-schema#label> "Level of Information" .
+# 
+# https://w3id.org/0.6/LODO#UK_Level_of_Definition
+<https://w3id.org/0.6/LODO#UK_Level_of_Definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#UK_Level_of_Definition> <https://w3id.org/0.6/LODO#hasLevel> <https://w3id.org/0.6/LODO#Level_of_Detail> .
+<https://w3id.org/0.6/LODO#UK_Level_of_Definition> <https://w3id.org/0.6/LODO#hasLevel> <https://w3id.org/0.6/LODO#Level_of_Information> .
+<https://w3id.org/0.6/LODO#UK_Level_of_Definition> <http://purl.org/dc/terms/description> "From the standards BS 1192-1 and PAS 1192-2 and 3" .
+<https://w3id.org/0.6/LODO#UK_Level_of_Definition> <http://www.w3.org/2000/01/rdf-schema#label> "UK Level of Definition" .
+# 
+# https://w3id.org/0.6/LODO#USA_BIMForum
+<https://w3id.org/0.6/LODO#USA_BIMForum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/0.6/LODO#USA_BIMForum> <https://w3id.org/0.6/LODO#hasLevel> <https://w3id.org/0.6/LODO#AsBuilt> .
+<https://w3id.org/0.6/LODO#USA_BIMForum> <https://w3id.org/0.6/LODO#hasLevel> <https://w3id.org/0.6/LODO#AsDesigned> .
+<https://w3id.org/0.6/LODO#USA_BIMForum> <http://purl.org/dc/terms/description> "USA Level of Development" .
+<https://w3id.org/0.6/LODO#USA_BIMForum> <http://www.w3.org/2000/01/rdf-schema#label> "USA BIMForum" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
