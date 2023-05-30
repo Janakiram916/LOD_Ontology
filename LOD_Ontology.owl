@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/0.6/LODO#"
+     xml:base="https://w3id.org/0.6/LODO"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:lodo="https://w3id.org/0.6/LODO#"
+     xmlns:obda="https://w3id.org/obda/vocabulary#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:ccREL="https://www.w3.org/Submission/ccREL/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="https://w3id.org/0.6/LODO">
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0/</dc:rights>
+        <terms:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others.</terms:abstract>
+        <terms:bibliographicCitation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023.</terms:bibliographicCitation>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-30T15:30:00</terms:created>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)</terms:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-30T15:47:00</terms:date>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LODO is an ontology that incorporates multiple LOD specifications based on respective industry standards. Its purpose is to facilitate the representation of LOD-sensitive BIM data through formal ontology definitions. This approach can be readily customized and implemented in the current BIM process, as it allows for the representation of BIM data in various ontologies such as BOT, ifcOWL, and others.</terms:description>
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International license</terms:license>
+        <terms:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD Ontology</terms:title>
+        <bibo:status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD Ontology Specification</bibo:status>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lodo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/0.6/LODO</vann:preferredNamespaceUri>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ceur-ws.org/Vol-3081/09paper.pdf</rdfs:seeAlso>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.6</owl:versionInfo>
+        <schema:citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janakiram Karlapudi.: LOD Ontology, https://w3id.org/0.6/LODO, 2023.</schema:citation>
+        <ccREL:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://creativecommons.org/licenses/by/4.0/</ccREL:license>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- https://schema.org/citation -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/citation"/>
+    
+
+
+    <!-- https://www.w3.org/Submission/ccREL/license -->
+
+    <owl:AnnotationProperty rdf:about="https://www.w3.org/Submission/ccREL/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasImmediateNextLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasImmediateNextLevel">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/0.6/LODO#hasNextLevel"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/0.6/LODO#hasImmediatePreviousLevel"/>
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represent the Immediate next level in the sequence</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immediate Next Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasImmediatePreviousLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasImmediatePreviousLevel">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/0.6/LODO#hasPreviousLevel"/>
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents the Immediate Previous level in the sequence</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immediate Previous Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasLevel">
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODFramework"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/0.6/LODO#hasLevel"/>
+            <rdf:Description rdf:about="https://w3id.org/0.6/LODO#hasSubLevel"/>
+        </owl:propertyChainAxiom>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enables the connection betweendifferent levels to its framework</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasNextLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasNextLevel">
+        <owl:inverseOf rdf:resource="https://w3id.org/0.6/LODO#hasPreviousLevel"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the sequence of levels.</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has Next Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasPreviousLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasPreviousLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the sequence of levels.</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has Previous Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasSubLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasSubLevel">
+        <owl:inverseOf rdf:resource="https://w3id.org/0.6/LODO#hasSuperLevel"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents the relation between Upper levels and its sub level</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has Sub Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#hasSuperLevel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/0.6/LODO#hasSuperLevel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:range rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has Super Level</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LODFramework -->
+
+    <owl:Class rdf:about="https://w3id.org/0.6/LODO#LODFramework">
+        <owl:disjointWith rdf:resource="https://w3id.org/0.6/LODO#LODLevel"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents the defined frameworks according to National or International standards</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD Framework</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LODLevel -->
+
+    <owl:Class rdf:about="https://w3id.org/0.6/LODO#LODLevel">
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates the different LOD levels deffined with in the different LOD frameworks</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD Level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#AsBuilt -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#AsBuilt">
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_500"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AsBuilt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#AsDesigned -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#AsDesigned">
+        <hasNextLevel rdf:resource="https://w3id.org/0.6/LODO#AsBuilt"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_100"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_200"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_300"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_350"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_400"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AsDesigned</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#Italy_Level_of_Development -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#Italy_Level_of_Development">
+        <hasLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_Geometrical_Object"/>
+        <hasLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_Information_Object"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy - Level of Development of Objects</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy Level of Development</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_1">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_100 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_100">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_200"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 100</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_2">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_3"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_200 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_200">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_300"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 200</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_3">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_300 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_300">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_350"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 300</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_350 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_350">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_400"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 350</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_4">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_5"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_400 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_400">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_500"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 400</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOD_500 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOD_500">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOD 500</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_A">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_B"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_B">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_C"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_C">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_D"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_D">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_E"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG D</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_E">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_F"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_F">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_G"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG F</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_G">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG G</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOG_Geometrical_Object -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOG_Geometrical_Object">
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_A"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_B"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_C"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_D"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_E"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_F"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOG_G"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describes about the level of geometrical information of an object</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOG - Geometrical Object</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_1 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_1">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_2 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_2">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_3"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_3 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_3">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_4"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_4 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_4">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_5"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_5 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_A">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_B"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_B">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_C"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_C">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_D"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_D">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_E"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI D</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_E">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_F"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_F">
+        <hasImmediateNextLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_G"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI F</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_G">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI G</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#LOI_Information_Object -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#LOI_Information_Object">
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_A"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_B"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_C"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_D"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_E"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_F"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_G"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decribes about the attribute information about the object</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOI - Information Object</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#Level_of_Detail -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#Level_of_Detail">
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_1"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_2"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_3"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_4"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOD_5"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level of Detail</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#Level_of_Information -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#Level_of_Information">
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_1"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_2"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_3"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_4"/>
+        <hasSubLevel rdf:resource="https://w3id.org/0.6/LODO#LOI_5"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Level of Information</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#UK_Level_of_Definition -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#UK_Level_of_Definition">
+        <hasLevel rdf:resource="https://w3id.org/0.6/LODO#Level_of_Detail"/>
+        <hasLevel rdf:resource="https://w3id.org/0.6/LODO#Level_of_Information"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">From the standards BS 1192-1 and PAS 1192-2 and 3</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK Level of Definition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/0.6/LODO#USA_BIMForum -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/0.6/LODO#USA_BIMForum">
+        <hasLevel rdf:resource="https://w3id.org/0.6/LODO#AsBuilt"/>
+        <hasLevel rdf:resource="https://w3id.org/0.6/LODO#AsDesigned"/>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA Level of Development</terms:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA BIMForum</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
