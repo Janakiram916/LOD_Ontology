@@ -88,21 +88,45 @@ LODO is an ontology that incorporates multiple LOD specifications based on respe
 <p>There are various publication standards for representing the geometry and attribute information of building objects at different levels of detail (LOD). While these LOD levels don't impose specific data requirements, they offer a framework to define those requirements based on the project, location, and organization. However, despite advancements, the successful implementation and management of LOD functionalities within existing Building Information Modeling (BIM) solutions face challenges. This is primarily due to confusion regarding data requirements at specific LOD levels and a lack of understanding regarding diverse frameworks for adopting and representing LOD levels.<p>
 
 <div id="lods" align="center">
+
 <table>
+
+<caption> <a href="#lods"> Table 1</a>: LOD system according to the different standards of specifications </caption>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
     <th>Country</th>
+    <th>LOD means</th>
+    <th>Subtype</th>
+    <th>Scale</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td rowspan="2">USA</td>
+    <td rowspan="2"> <a href="#USA_BIMForum"> Level of Development </a></td>
+    <td> <a href="#AsDesigned">As Designed</a></td>
+    <td> <a href="#LOD_100">LOD 100</a>, <a href="#LOD_200">LOD 200</a>, <a href="#LOD_300">LOD 300</a>, <a href="#LOD_350">LOD 350</a>, <a href="#LOD_400">LOD 400</a> </td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td> <a href="#AsBuilt">As Built </a></td>
+    <td><a href="#LOD_500">LOD 500</a></td>
+  </tr>
+  <tr>
+      <td rowspan="2"><b>UK</b></td>
+    <td rowspan="2"><a href="#UK_Level_of_Definition">Level of Definition</a></td>
+    <td> <a href="#Level_of_Detail">Level of Detail</a> </td>
+    <td><a href="#LOD_1">LOD 1</a>, <a href="#LOD_2">LOD 2</a>, <a href="#LOD_3">LOD 3</a>, <a href="#LOD_4">LOD 4</a>, <a href="#LOD_5">LOD 5</a>, <a href="#LOD_6">LOD 6</a></td>
+  </tr>
+  <tr>
+      <td><a href="#Level_of_Information">Level of Information</a></td>
+    <td><a href="#LOI_1">LOI 1</a>, <a href="#LOI_2">LOI 2</a>, <a href="#LOI_3">LOI 3</a>, <a href="#LOI_4">LOI 4</a>, <a href="#LOI_5">LOI 5</a>, <a href="#LOI_6">LOI 6</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Italy</td>
+    <td rowspan="2"> <a href="#Italy_Level_of_DevelopmentLevel"> Level of Development of Objects</a></td>
+    <td><a href="#LOG_Geometrical_Object">LOG - Geometrical Object</a></td>
+    <td><a href="#LOG_A">LOG A</a>, <a href="#LOG_B">LOG B</a>, <a href="#LOG_C">LOG C</a>, <a href="#LOG_D">LOG D</a>, <a href="#LOG_E">LOG E</a>, <a href="#LOG_F">LOG F</a>, <a href="#LOG_G">LOG G</a></td>
+  </tr>
+  <tr>
+    <td><a href="#LOI_Information_Object">LOI - Information Object</a></td>
+    <td><a href="#LOI_A">LOI A</a>, <a href="#LOI_B">LOI B</a>, <a href="#LOI_C">LOI C</a>, <a href="#LOI_D">LOI D</a>, <a href="#LOI_E">LOI E</a>, <a href="#LOI_F">LOI F</a>, <a href="#LOI_G">LOI G</a></td>
   </tr>
 </table>
 </div>
@@ -113,7 +137,7 @@ LODO is an ontology that incorporates multiple LOD specifications based on respe
 <h3 id="ns" class="list">Namespace declarations</h3>
 <div id="ns" align="center">
 <table>
-<caption> <a href="#ns"> Table 1</a>: Namespaces used in the document </caption>
+<caption> <a href="#ns"> Table 2</a>: Namespaces used in the document </caption>
 <tbody>
 <tr><td><b>lodo</b></td><td>&lt;https://w3id.org/0.6/LODO&gt;</td></tr>
 <tr><td></td><td></td></tr>
@@ -322,6 +346,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#LODFramework</p>
+       <div class="comment">
+         <span class="markdown">Represents the defined frameworks according to National or International standards. </span>
+      </div>
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
@@ -342,6 +369,10 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#LODLevel</p>
+       <div class="comment">
+         <span class="markdown">Indicates the different LOD levels deffined with in the different LOD frameworks.</span>
+      </div>
+
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
@@ -406,6 +437,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasLevel</p>
+       <div class="comment">
+         <span class="markdown">Enables the connection betweendifferent levels to its framework</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
@@ -436,6 +470,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasNextLevel</p>
+       <div class="comment">
+         <span class="markdown">Indicates the sequence of levels</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
@@ -471,6 +508,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasPreviousLevel</p>
+       <div class="comment">
+         <span class="markdown">Indicates the sequence of levels.</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
@@ -507,6 +547,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasSubLevel</p>
+       <div class="comment">
+         <span class="markdown">Represents the relation between Upper levels and its sub level</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
@@ -537,6 +580,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasSuperLevel</p>
+       <div class="comment">
+         <span class="markdown">Represents the relation between Upper levels and its sub level</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
@@ -567,6 +613,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasImmediateNextLevel</p>
+       <div class="comment">
+         <span class="markdown">Represent the Immediate next level in the sequence.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -600,6 +649,9 @@ This section provides details for each class and property defined by LOD Ontolog
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/0.6/LODO#hasImmediatePreviousLevel</p>
+       <div class="comment">
+         <span class="markdown">Represent the Immediate previous level in the sequence.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
