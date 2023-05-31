@@ -99,7 +99,7 @@ LODO is an ontology that incorporates multiple LOD specifications based on respe
     <th>Scale</th>
   </tr>
   <tr>
-    <td rowspan="2">USA</td>
+    <td rowspan="2"><b>USA</b></td>
     <td rowspan="2"> <a href="#USA_BIMForum"> Level of Development </a></td>
     <td> <a href="#AsDesigned">As Designed</a></td>
     <td> <a href="#LOD_100">LOD 100</a>, <a href="#LOD_200">LOD 200</a>, <a href="#LOD_300">LOD 300</a>, <a href="#LOD_350">LOD 350</a>, <a href="#LOD_400">LOD 400</a> </td>
@@ -119,7 +119,7 @@ LODO is an ontology that incorporates multiple LOD specifications based on respe
     <td><a href="#LOI_1">LOI 1</a>, <a href="#LOI_2">LOI 2</a>, <a href="#LOI_3">LOI 3</a>, <a href="#LOI_4">LOI 4</a>, <a href="#LOI_5">LOI 5</a>, <a href="#LOI_6">LOI 6</a></td>
   </tr>
   <tr>
-    <td rowspan="2">Italy</td>
+    <td rowspan="2"><b>Italy</b></td>
     <td rowspan="2"> <a href="#Italy_Level_of_DevelopmentLevel"> Level of Development of Objects</a></td>
     <td><a href="#LOG_Geometrical_Object">LOG - Geometrical Object</a></td>
     <td><a href="#LOG_A">LOG A</a>, <a href="#LOG_B">LOG B</a>, <a href="#LOG_C">LOG C</a>, <a href="#LOG_D">LOG D</a>, <a href="#LOG_E">LOG E</a>, <a href="#LOG_F">LOG F</a>, <a href="#LOG_G">LOG G</a></td>
@@ -163,7 +163,16 @@ LODO is an ontology that incorporates multiple LOD specifications based on respe
 <!--OVERVIEW SECTION-->
     <div id="overview"><h2 id="overv" class="list">LOD Ontology: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This ontology has the following classes and properties.</span>
+    <p>Based on a comprehensive analysis of various LOD systems, a methodological ontology schema has been developed and is presented in Figure 1. This ontological structure for the LOD framework is designed to accommodate the different standards of representations outlined in <a href="#lods"> Table 1</a>, considering that different construction projects may adopt varying LOD systems.</p>
+
+    <p>The class <a href="#LODFramework">LOD Framework</a> can be instantiated with frameworks such as USA BIMForum, UK LOD, Italian LOD, and others (refer to <a href="#lods"> Table 1</a>). Similarly, the levels within different frameworks are added as instances to the class <a href="#LODLevel">LOD Level</a>. To establish the relationship between a framework and its respective levels, the object property <a href="#hasLevel">has Level</a> is used. The relationships between the levels within a framework are indicated using the transitive object properties <a href="#hasNextLevel">has Next Level</a>, <a href="#hasSubLevel">has Sub Level</a>, and their inverse properties <a href="#hasPreviousLevel">has Previous Level</a>, <a href="#hasSuperLevel">has Super Level</a>, respectively.
+
+    To define the semantic interpretation between LOD levels and LOD subtypes, a sub-property chain axiom is assigned to the object properties <a href="#hasLevel">has Level</a>.
+
+    An exemplary demonstration is provided in the description section to illustrate the functionalities of the developed ontology framework.</p>
+
+    <p>The defined Classes, Properties and Individuals of LOD Ontology are presented below.</p>
+        </span>
 <h4>Classes</h4>
 <ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
    <li>
